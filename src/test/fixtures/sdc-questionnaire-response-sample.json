@@ -1,0 +1,29 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "3141",
+  "status": "completed",
+  "authored": "2022-02-13T14:15:00-05:00",
+  "item": [
+    {
+      "linkId": "3",
+      "item": [
+        {
+          "linkId": "3.1",
+          "answer": [
+            {
+              "valueDecimal": 94.6
+            }
+          ]
+        },
+        {
+          "linkId": "3.2",
+          "answer": [
+            {
+              "valueDecimal": 71
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
