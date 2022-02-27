@@ -1,0 +1,54 @@
+{
+  "resourceType": "Questionnaire",
+  "status": "active",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/variable",
+      "valueExpression": {
+        "name": "housing-eligibility",
+        "language": "text/fhirpath",
+        "expression": "%resource.descendants().where(linkId.startsWith('1.')).answer.value.where(value=true).count()>2"
+      }
+    }
+  ],
+  "item": [
+    {
+      "linkId": "1",
+      "type": "group",
+      "text": "Housing",
+      "item": [
+        {
+          "linkId": "1.1",
+          "text": "Did X happen?",
+          "type": "boolean"
+        },
+        {
+          "linkId": "1.2",
+          "text": "Did Y happen?",
+          "type": "boolean"
+        },
+        {
+          "linkId": "1.3",
+          "text": "Did Z happen?",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression",
+          "valueExpression": {
+            "description": "housing issue qualification",
+            "language": "text/fhirpath",
+            "expression": "%housing-eligibility"
+          }
+        }
+      ],
+      "linkId": "2",
+      "text": "Eligibility for housing",
+      "type": "boolean",
+      "readOnly": true
+    }
+  ]
+}
