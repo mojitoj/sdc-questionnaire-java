@@ -21,9 +21,9 @@ public class TestBasicSDCQuestionnaireProcessor {
     }
 
     @Test
-    public void transformTest2() throws IOException, FHIRParserException, FHIRPathException, FHIRPatchException, FHIRGeneratorException {
-        String questionnaireFilePath = "src/test/fixtures/acorn-questionnaire-sample.json";
-        String questionnaireResponseFilePath = "src/test/fixtures/acorn-questionnaire-response-sample.json";
+    public void transformTest3() throws IOException, FHIRParserException, FHIRPathException, FHIRPatchException, FHIRGeneratorException {
+        String questionnaireFilePath = "src/test/fixtures/acorn-questionnaire.json";
+        String questionnaireResponseFilePath = "src/test/fixtures/acorn-questionnaire-response-1.json";
         String questionnaireString = new String(Files.readAllBytes(Paths.get(questionnaireFilePath)));
         String questionnaireResponseString = new String(Files.readAllBytes(Paths.get(questionnaireResponseFilePath)));
         String transformedQuestionnaireResponse = BasicSDCQuestionnaireProcessor.transform(questionnaireString, questionnaireResponseString);

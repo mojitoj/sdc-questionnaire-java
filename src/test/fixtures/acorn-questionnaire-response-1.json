@@ -1,0 +1,629 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "1",
+  "status": "completed",
+  "authored": "2022-02-13T14:15:00-05:00",
+  "item": [
+    {
+      "linkId": "housing-security",
+      "item": [
+        {
+          "linkId": "1",
+          "item": [
+            {
+              "linkId": "1.1",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "1.2",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "1.3",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "2",
+          "item": [
+            {
+              "linkId": "2.1",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "2.2",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "2.3",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "2.4",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "2.5",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "2.6",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "2.7",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "food",
+      "item": [
+        {
+          "linkId": "3",
+          "item": [
+            {
+              "linkId": "3.1",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "3.2",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "3.3",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "4",
+          "item": [
+            {
+              "linkId": "4.1",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "4.2",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "4.3",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "transportation-access",
+      "item": [
+        {
+          "linkId": "5",
+          "item": [
+            {
+              "linkId": "5.1",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "5.2",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "utility-needs",
+      "item": [
+        {
+          "linkId": "6",
+          "item": [
+            {
+              "linkId": "6.1",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "6.2",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "6.3",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "personal-safety",
+      "item": [
+        {
+          "linkId": "7",
+          "item": [
+            {
+              "linkId": "7.1",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "7.2",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "7.3",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "7.4",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "7.5",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "8",
+          "item": [
+            {
+              "linkId": "8.1",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "8.2",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "8.3",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "8.4",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "8.5",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "9",
+          "item": [
+            {
+              "linkId": "9.1",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "9.2",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "9.3",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "9.4",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "9.5",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "10",
+          "item": [
+            {
+              "linkId": "10.1",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "10.2",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "10.3",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "10.4",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "10.5",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "employment-and-education",
+      "item": [
+        {
+          "linkId": "11",
+          "item": [
+            {
+              "linkId": "11.1",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "11.2",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "11.3",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "12",
+          "item": [
+            {
+              "linkId": "12.1",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "12.2",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "12.3",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "13",
+          "item": [
+            {
+              "linkId": "13.1",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "13.2",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "14",
+          "item": [
+            {
+              "linkId": "14.1",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "14.2",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "social-support",
+      "item": [
+        {
+          "linkId": "15",
+          "item": [
+            {
+              "linkId": "15.1",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "15.2",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "15.3",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "15.4",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "16",
+          "item": [
+            {
+              "linkId": "16.1",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "16.2",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "16.3",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "16.4",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            },
+            {
+              "linkId": "16.5",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "linkId": "legal-support",
+      "item": [
+        {
+          "linkId": "17",
+          "item": [
+            {
+              "linkId": "17.1",
+              "answer": [
+                {
+                  "valueBoolean": true
+                }
+              ]
+            },
+            {
+              "linkId": "17.2",
+              "answer": [
+                {
+                  "valueBoolean": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

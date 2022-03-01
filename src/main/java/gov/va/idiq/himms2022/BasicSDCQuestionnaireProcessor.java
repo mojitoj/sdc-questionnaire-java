@@ -1,7 +1,10 @@
 package gov.va.idiq.himms2022;
 
+import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
@@ -130,6 +133,16 @@ public class BasicSDCQuestionnaireProcessor {
         StringWriter output = new StringWriter();
         FHIRGenerator.generator(Format.JSON, true).generate(questionnaireResponse, output);
         return output.toString();
+    }
+
+    public static void main(String[] args) throws IOException, FHIRParserException, FHIRPathException {
+        String fhirPathExpression = "true";
+        String questionnaireFilePath = "src/test/fixtures/acorn-questionnaire-response-1.json";
+        String questionnaireResponseString = new String(Files.readAllBytes(Paths.get(questionnaireFilePath)));
+        QuestionnaireResponse questionnaireResponse = FHIRParser.parser(Format.JSON)
+                .parse(new StringReader(questionnaireResponseString));
+        String result = FHIRPathEvaluator.evaluator().evaluate(questionnaireResponse, fhirPathExpression).stream().findFirst().get().toString();
+        System.out.println(result);
     }
 
 }
